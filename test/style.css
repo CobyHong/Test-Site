@@ -1,0 +1,89 @@
+html, body {
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Khand', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  background: #F4F4F4;
+}
+
+.div1 {
+  margin-top: 20px;
+  position: relative;
+  z-index: 1;
+  padding: 2%;
+  padding-left: 10%;
+  padding-bottom: 4%;
+  margin-bottom: 10%;
+  height: auto;
+  width: 70%;
+  margin-left: 10%;
+  border-radius: 10px;
+}
+
+.div1 .bg1 {
+  position: absolute;
+  z-index: -5;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; //background color declared in html
+}
+
+.scooby {
+  float: left;
+  text-shadow: 0 1px 1px #838e8a;
+  letter-spacing: 5px;
+  display: block;
+  text-align: center;
+  width: 20%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  background: #f1f1f2;
+  outline-style: ridge;
+  outline-color: #efefef;
+  outline-width: 0.1px;
+  transition: padding-bottom 1s;
+}
+
+.scooby:hover {
+  background: #dddddd;
+  padding-bottom: 3%;
+  cursor: pointer;
+}
+
+#holder {
+  width: 100%;
+  background: #f1f1f2;
+  z-index: 5;
+  opacity: 0.9;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.back {
+  text-align: center;
+  display: inline-table;
+  user-select: none;
+  padding: 1%;
+  z-index: -100;
+  width: 100%;
+  height: auto;
+  background-color: #f4f4f4;
+  text-shadow: 0 1px 1px #838e8a;
+}
+
+.sticky+.back {
+  padding-top: 50%;
+}
+
+.end {
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+  background: #838e8a;
+  padding-top: 2%;
+}
